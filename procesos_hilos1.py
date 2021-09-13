@@ -1,3 +1,8 @@
+# Hagan un pull por favor 
+# Ejecuten el archivo procesos_hilos1.py
+# algunos equipos pueden llegar a bloquer por un momento
+
+
 # import para importar librerias a utilizar en el programa 
 import threading
 import time
@@ -28,7 +33,7 @@ def tarea2():
         threading.current_thread().name
     ))
     conta = 0
-    while conta < 100000000:
+    while conta < 10000000000:
         conta += 1
 
 start_time = time.time()
@@ -61,4 +66,5 @@ print("Tiempo Final Paralelo:", paralelo)
 
 
 print("Tiempo concurrente vs paralelo:", paralelo - concurrente )
+
 
